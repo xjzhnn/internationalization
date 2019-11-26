@@ -11,6 +11,8 @@ const i18n = new VueI18n({
 	}
 })
 
+Vue.prototype._i18n = i18n   //若报错则注释此行试试
+
 Vue.config.productionTip = false
 
 App.mpType = 'app'

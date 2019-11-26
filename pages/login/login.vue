@@ -7,7 +7,7 @@
 		</view>
 		<view class="logo-input">
 			<view class="input-box">
-				<image class="input-icon" src="../../static/shiwu-shouji拷贝.png" />
+				<image class="input-icon" src="../../static/phone.png" />
 				<input class="input" :placeholder="$t('login.inputUserName')"  placeholder-class="placeholder" />
 			</view>
 			<view class="input-box">
