@@ -55,8 +55,9 @@
 				this.modelStatus=!this.modelStatus
 			},
 			handove(item){
-				 this.$i18n.locale = item;
-				  localStorage.setItem('locale', item);
+				 this._i18n.locale = item;
+				 uni.setStorageSync('locale', item);
+				  // localStorage.setItem('locale', item);
 				 this.modelStatus=!this.modelStatus;
 			},
 			

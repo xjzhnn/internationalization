@@ -1,6 +1,8 @@
 <script>
 	export default {
 		onLaunch: function() {
+			const locale=uni.getStorageSync('locale') || 'zh-CN';
+			this._i18n.locale = locale;
 			console.log('App Launch')
 		},
 		onShow: function() {
